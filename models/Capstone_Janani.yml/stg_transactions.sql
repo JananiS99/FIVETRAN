@@ -27,6 +27,3 @@ CLEANED AS (
 )
 
 SELECT * FROM CLEANED
-
-
-
