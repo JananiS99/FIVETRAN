@@ -35,10 +35,11 @@ clean-targets: # directories to be removed by `dbt clean`
 
 models:
   my_new_project:
-    Capstone_Janani:
-      +materialized: table
-    Snowflake_dbt:
-      +materialized: table
+    +materialized: table
+  Capstone_Janani:
+    +materialized: table
+  Snowflake_dbt:
+    +materialized: table
 
 
  
