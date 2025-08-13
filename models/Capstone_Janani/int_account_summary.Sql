@@ -25,4 +25,4 @@ ACCOUNT_SUMMARY AS (
     JOIN banking b ON td.account_id = b.account_id
 )
 
-SELECT * FROM ACCOUNT_SUMMARY;
+SELECT * FROM ACCOUNT_SUMMARY
